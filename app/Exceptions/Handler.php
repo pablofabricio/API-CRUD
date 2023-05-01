@@ -3,6 +3,10 @@
 namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
+use Symfony\Component\HttpKernel\Exception\HttpException;
+use Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class Handler extends ExceptionHandler
 {
@@ -32,6 +36,6 @@ class Handler extends ExceptionHandler
      */
     public function register()
     {
-        //
+        
     }
 }

@@ -2,23 +2,15 @@ API CRUD
 
 - Tecnologias:
 ```sh
-Php 7.4
+Php 8.1
 Laravel 8
 MySQL
 ```
 
 - Instalação
 
-create a copy of .env.exemple and rename it to .env
-
-
 ```sh
 composer install
-```
-
-
-```sh
-php artisan key:generate
 ```
 
 ```sh
@@ -26,13 +18,15 @@ php artisan migrate
 php artisan db:seed
 ```
 
-
-```sh
-php artisan route:scan
-```
-
+- Tests
 ```sh
 ./vendor/bin/phpunit
+```
+
+-Basic Authentication
+```sh
+Username: pablo@gmail.com
+Password: 1234567
 ```
 
 - Developer
