@@ -1,13 +1,13 @@
 API CRUD
 
-- Tecnologias:
+- Technologies:
 ```sh
 Php 8.1
 Laravel 8
 MySQL
 ```
 
-- Instalação
+- Installation
 
 ```sh
 composer install
