@@ -18,6 +18,10 @@ php artisan migrate
 php artisan db:seed
 ```
 
+```sh
+php artisan serve
+```
+
 - Tests
 ```sh
 ./vendor/bin/phpunit
